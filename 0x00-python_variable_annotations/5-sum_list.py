@@ -6,6 +6,8 @@
 """
 
 import typing
+
+
 def sum_list(input_list: typing.List[float]) -> float:
     """
         type-annotated function sum_list which takes a list input_list of

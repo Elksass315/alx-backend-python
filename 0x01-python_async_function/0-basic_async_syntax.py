@@ -9,6 +9,8 @@ import random
 async def wait_random(max_delay = 10):
     """
         async func delay for random time
+        max_delay: max delay time
+        return: the time delayed
     """
     delay = random.uniform(0, max_delay)
     await asyncio.sleep(delay)
